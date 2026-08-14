@@ -1,7 +1,7 @@
 # Lab 16 — Product Teardown: Checkpoints & Cách làm việc nhóm
 
 > **Sản phẩm đã chốt:** **Cursor** (AI code editor).
-> **Nhóm:** K3 — Lab 16 · **Thành viên:** A · B · C · D
+> **Nhóm:** K3 — Lab 16 · **Thành viên:** Lê Quang Huy (A) · Trần Đức Bảo (B) · Đàm Việt Cường (C) · Hoàng Minh Quân (D)
 > File này là kế hoạch chung của buổi. Mỗi thành viên đọc trước khi bắt đầu. Deliverable cuối: `memo.md` + `slides.pdf`.
 
 ---
@@ -206,11 +206,13 @@ Mỗi dự đoán đúng 2 dòng: **Dự đoán** (sẽ làm gì) · **Lập lu�
 
 ---
 ## 📁 Phân công nhóm (Step 0–1)
-| Thành viên | Nhiệm vụ | Nguồn đào |
-|---|---|---|
-| **A** | Blog & Changelog chính thức | cursor.com/changelog, docs "Updates" — lọc tính năng lớn (Tab, Composer, Agent), bỏ bản vá |
-| **B** | Product Hunt & Hacker News | Trang PH của Cursor, thread HN "Cursor IDE" — phản hồi early adopters, mốc thảo luận sôi nổi |
-| **C** | Tweet & phát biểu Founder | X của Michael Truell / @cursor_ai, podcast (Lex Fridman, a16z) — định hướng & pivot |
-| **D** | Báo chí & Reddit | TechCrunch, The Verge, r/cursor, r/vscode — "why I switched", review 1 sao (feed Step 2) |
+| Vai | Thành viên | Mã số | Nhiệm vụ | Nguồn đào | File |
+|---|---|---|---|---|---|
+| **A** | **Lê Quang Huy** | 2A202601821 | Blog & Changelog chính thức | cursor.com/changelog, docs "Updates" — lọc tính năng lớn (Tab, Composer, Agent), bỏ bản vá | `CP1-Timeline-Nguyen-Ly-Cursor.md` ✅ |
+| **B** | **Trần Đức Bảo** | 2A202601472 | Product Hunt & Hacker News | Trang PH của Cursor, thread HN "Cursor IDE" — phản hồi early adopters, mốc thảo luận sôi nổi | *(chưa nộp)* |
+| **C** | **Đàm Việt Cường** | 2A202601566 | Tweet & phát biểu Founder | X của Michael Truell / @cursor_ai, podcast (Lex Fridman, a16z) — định hướng & pivot | *(chưa nộp)* |
+| **D** | **Hoàng Minh Quân** | 2A202601574 | Báo chí & Reddit | TechCrunch, The Verge, r/cursor, r/vscode — "why I switched", review 1 sao (feed Step 2) | `HoàngMinhQuân.md` ✅ |
+
+> **Quy ước file:** mỗi người một file riêng đặt theo tên mình, header ghi rõ vai (`# Thành viên X — <nhiệm vụ>`). Sau khi đủ 4 phần, cả nhóm ghép vào `memo.md` chung.
 
 *Cập nhật: 2026-08-14.*
