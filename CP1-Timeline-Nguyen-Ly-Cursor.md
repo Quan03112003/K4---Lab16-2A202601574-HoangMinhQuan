@@ -16,6 +16,18 @@
 | 7 | **29/10/2025** | **Cursor 2.0** — model coding riêng **Composer** (tự huấn luyện, "4x nhanh hơn model cùng tầm") + **chạy tới 8 agent song song** + giao diện xoay quanh agent. | 10/2025: chuẩn bị **Series D $2.3B** (định giá $29.3B, 13/11). Đồng sáng lập Arvid Lunnemark rời đi. Cạnh tranh model coding (Claude, GPT) gay gắt. | **Vertical AI + x10**: tự làm model dọc thay vì chỉ "wrap" API người khác → kiểm soát chất lượng + chi phí; **đổi định vị** từ "editor có AI" sang "**nền tảng điều phối nhiều agent**" — khớp phát biểu founder ~15 tháng sau mốc 1 (ghi chú ²): nguyên lý *sở hữu trọn tầng editor + model* không đổi, chỉ mở rộng quy mô. | [Changelog 2.0](https://cursor.com/changelog/2-0) · [a16z podcast](https://a16z.com/podcast/michael-truell-how-cursor-builds-at-the-speed-of-ai/) ² |
 | 8 | **02/04/2026** | **Cursor 3.0 — Agents Window**: giao diện **agent-first** đứng riêng, chạy nhiều agent song song across repo & môi trường (local, git worktree, cloud, remote SSH) + Design Mode + lệnh `/worktree`, `/best-of-n`. **IDE bị hạ xuống thành một pane** trong số nhiều pane. | 2026: ~$3B ARR, 64% Fortune 500 dùng. Cùng tháng, **SpaceX chào mua $60B** (21/04). Cộng đồng phản ứng **rất tiêu cực** trên Reddit/HN — "Cursor is dead", tố rời bỏ bản sắc IDE. | **định nghĩa "tốt" (tự đảo lại) + x10**: khi user không còn *gõ* code mà *duyệt* output agent, thì surface tối ưu cho việc gõ (bản fork VS Code) trở thành sai → **tự tay gỡ chính lực Habit mình đã dựng ở mốc 1**. Đóng vòng: từ "mượn thói quen cũ" sang "bắt user học thói quen mới". | [Changelog 3.0](https://cursor.com/changelog/3-0) |
 
+### Diễn biến sau mốc 8 — *chưa tính là cột mốc, đóng góp: Thành viên C (Đàm Việt Cường), chi tiết ở [DamVietCuong.md](DamVietCuong.md)*
+
+Từ 03/2026 Cursor mở thêm ba hướng **chưa đưa vào bảng** vì bảng đã chạm trần rubric (6–8 hàng) và vì tính chất của chúng:
+
+- **Automations (03/2026)** — agent always-on, kích hoạt từ Slack/Linear/GitHub/PagerDuty.
+- **Cursor SDK (04/2026)** — TypeScript SDK nhúng runtime/harness/model vào CI/CD, backend.
+- **Origin (công bố 16/06/2026 tại hội nghị Compile)** — **git forge cho kỷ nguyên agent**, dựng trên công nghệ từ thương vụ Graphite. [Trang chính thức](https://cursor.com/origin) ghi rõ **vẫn đang waitlist, chưa phát hành**.
+
+**Vì sao để ngoài bảng:** cả ba chưa ship rộng rãi (Origin còn waitlist) nên chưa phải *quyết định đã đổi workflow của user* — tiêu chí lọc ở mục dưới. Riêng thương vụ **SpaceX mua lại $60B (16/06/2026)** là **sự kiện tài chính/công ty**, đúng nhóm đã loại. Ba hướng này mạnh hơn khi dùng làm **neo cho §3 (ba dự đoán)** — chúng cho thấy nguyên lý mới đang hình thành: *mở rộng xuống hạ tầng (editor → git forge → compute)*, tức Cursor không chỉ đổi giao diện như mốc 8 mà đang tính chiếm luôn tầng dưới.
+
+> ⚠️ *Cần bổ sung trước khi nộp:* các mốc Automations và SDK hiện chỉ có nguồn thứ ba (dataconomy, marktechpost). Theo quy tắc CP, nếu đưa vào memo phải tìm được nguồn gốc chính thức từ cursor.com hoặc phát biểu founder.
+
 ### Ghi chú nguồn founder — *đóng góp: Thành viên C (Đàm Việt Cường)*
 
 ¹ **Lex Fridman #447 (06/10/2024, ~16:35)** — Truell mô tả triết lý Cursor Tab: dự đoán *"the next diff, next place you're going to jump to"* — đoán trước cả một thay đổi mạch lạc, không chỉ vài ký tự tiếp theo. Đây là phát biểu trực tiếp của người ra quyết định, xác nhận nguyên lý "định nghĩa lại gợi ý tốt" ở **mốc 1** không phải suy diễn từ marketing.
