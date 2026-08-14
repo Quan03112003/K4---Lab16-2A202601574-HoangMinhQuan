@@ -1,6 +1,6 @@
 # CP1 — Timeline & Revert nguyên lý: Cursor
 
-> **Đối tượng:** Cursor (Anysphere). **Người phụ trách phần này:** Thành viên A — Blog & Changelog chính thức.
+> **Đối tượng:** Cursor (Anysphere). **Người phụ trách phần này:** Lê Quang Huy — Blog & Changelog chính thức.
 > **Cách đọc bảng:** mỗi hàng là **một quyết định sản phẩm** (tính năng lớn / pivot / đổi pricing / đổi segment), không phải bản vá lỗi. Mỗi nguyên lý là một khái niệm **có tên** đã học trong buổi: *x10 · wrapper/moat · Vertical AI · vòng lặp học · định nghĩa "tốt"*.
 
 ## Bảng timeline (7 cột mốc)
